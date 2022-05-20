@@ -32,6 +32,6 @@ digitalWrite(5,LOW); //turn off LED Group 5, specified by LOW
 digitalWrite(6,LOW); //turn off LED Group 6, specified by LOW
 
 //Stay off for 5 minutes
-delay(30000); // stay in this state for 5 minutes
+delay(300000); // stay in this state for 5 minutes
 Serial.println("ALL LEDs should be off, begin 5 min delay");
 }
